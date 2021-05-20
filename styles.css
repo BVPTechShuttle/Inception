@@ -3,21 +3,10 @@
   margin: 0;
   padding: 0;  
 }
-             
-.navbar {
-  padding: 7px 10px;
-  text-decoration:none;
-  color:#EC3750 ;
-  font-size: 16px;
-  text-transform: uppercase;
-  transition: all 0.3s ease; 
-  font-weight: bold; 
+  
+.r_color { 
+  color: #EC3750;
 }
-
-.navbar:hover {
-  color: #02329D;
-}
-
 button {
   margin-top: 4%;   
   padding: 7px 18px ;
@@ -33,43 +22,21 @@ button:hover {
   background-color:#02329D ;
 }
 
-.r_color { 
-  color: #EC3750;
-}
+
+
+/*header */  
 
 header{
   background-color:#313444;
 }
-
-.tech_logo{
+.techshuttle_logo{
   width: 60px;
   border-radius: 60px;
   cursor: pointer;            
   float: left;
   margin: 0px 20px;
 }
-
-.in_logo{
-  width: 270px;
-  border-radius: 270px;
-  cursor: pointer;            
-  float:inline-start;
-  margin: 0% 0%;
-  margin-top: -21%;
-  margin-bottom: -4%;
-}
-
-.in_logo1{
-  width: 360px;
-  border-radius: 270px;
-  cursor: pointer;            
-      margin: auto;
-      margin-top: -22%;
-      margin-bottom: auto;
-      text-align: center;
-}
-
-.logo{
+.techshuttle_name{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
   font-size: 22px;
@@ -78,7 +45,18 @@ header{
   line-height: 75px;
   margin: auto;
 }
-
+.navbar {
+  padding: 7px 10px;
+  text-decoration:none;
+  color:#EC3750 ;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: all 0.3s ease; 
+  font-weight: bold; 
+}
+.navbar:hover {
+  color: #02329D;
+}
 nav #icon{
   color:#02329D;
   font-size: 20px;
@@ -87,6 +65,46 @@ nav #icon{
   margin-right: 40px;
   cursor: pointer;
 }
+
+/* section and parallax*/
+.parallax{
+  background-image: url(img/binary.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallax-inner{
+  padding-bottom: 30%;
+  padding-right: 70%;
+}      
+.parallax h1{
+  text-align: left;
+  font-size: 500%;
+  color: white;
+  letter-spacing: 3px;
+  padding-top: 0px;
+  padding-bottom: 350px;
+}
+
+/*section 1*/
+.inception{
+  font-size: 65px;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto; 
+}
+.inception_logo{
+  width: 360px;
+  border-radius: 270px;
+  cursor: pointer;            
+      margin: auto;
+      margin-top: -22%;
+      margin-bottom: auto;
+      text-align: center;
+}
+/* about area */
 .margin{ 
   padding: 4%;
   margin: 0 0;
@@ -94,8 +112,7 @@ nav #icon{
   overflow: hidden;
   filter: blur(0px);
 }
-
-.text{
+.about_text{
   color: #EC3750;
   text-align: center;
   text-decoration: solid;
@@ -106,25 +123,31 @@ nav #icon{
   font-size: 20px;
 }
 
-.parallax{
-  background-image: url(img/binary.png);
-  background-size: cover;
-  background-attachment: fixed;
+/*section2 posters*/
+.poster_text{
+  margin-top: -20%;
+  margin-bottom: -2%;
+  font-size: 76px;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+.poster_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.parallax-inner{
-  padding-bottom: 30%;
-  padding-right: 70%;
+/*section3 posters*/
+.poster_container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30%;
 }
-        
-.parallax h1{
-  text-align: left;
-  font-size: 500%;
-  color: white;
-  letter-spacing: 3px;
-  padding-top: 0px;
-  padding-bottom: 350px;
-}
+
+/*section2-3 event cards*/
 .card p {
   font-family: "Poppins";
 }
@@ -135,32 +158,12 @@ nav #icon{
   text-align: center;
   padding: 10px;
 }
-
-.title {
-  color: black;
-  font-size: 15px;
-}
-
 div {
   margin: 0px;
 }
-
-.logo_text {
-  cursor: pointer;
-  font-size: 20px;
-  color: #1d1d1d;
-  text-decoration: none;
-  margin-inline: right;
-}
-
-.r_color {
-  color: #EC3750;
-}
-  
 @keyframes stroke-offset{
   100% {stroke-dashoffset: -100%;}
 }
-
 .event-card {
   background-color: transparent;
   width: 300px;
@@ -170,9 +173,8 @@ div {
   display: inline-flex;
   align-items: center;
   margin-bottom: 4%;
-  margin-left: 0%;
+  margin-inline-start:5%;
 }
-
 .event-card-struct {
   position: relative;
   width: 300px;
@@ -184,11 +186,9 @@ div {
   display: inline-block;
   margin-bottom: auto;
 }
-
 .event-card:hover .event-card-struct {
   transform: rotateY(180deg);
 }
-
 .event-card-front, .event-card-back {
   position: absolute;
   width: 300px;
@@ -196,18 +196,15 @@ div {
   backface-visibility: hidden;
   border-radius:30px;
 }
-
 .event-card-back {
   /**background-image: linear-gradient(#1B1C37,#313444);**/
   transform: rotateY(180deg);
 }
-
 .event{
   border-radius: 30px;
   width: 300px;
   height: 300px;
 }
-
 .event-card-back h1{
   font-family: "Poppins";
   vertical-align: middle;
@@ -216,67 +213,6 @@ div {
   color:white;
   font-weight: lighter;
   padding: 10px;
-}
-
-.text h1{
-  color: black;
-  font-family:"Poppins";
-  margin: auto;
-  margin-top: 10px;
-  font-size: 30px;
-}
-  
-.wrapper {
-	max-width: initial;
-  align-items: center;
-  margin-bottom: 6%;
-  margin-left:5%;
-  margin: auto;
-  margin-left:5%;
-}
-
-.container {
-  display:inline-flex;
-  align-items: center;
-}
-
-.p_text{
-  margin-top: -4%;
-  font-size: 65px;
-  color: white;
-  cursor: pointer;
-  overflow: hidden;
-  display: inline-block;
-}
-.p_text1{
-  font-size: 65px;
-  color: white;
-  cursor: pointer;
-  overflow: hidden;
-  display: center;
-  text-align: center;
-  margin: auto;
-  
-}
-.p_text2{
-  margin-top: -20%;
-  margin-bottom: -2%;
-  font-size: 76px;
-  color: white;
-  cursor: pointer;
-  overflow: hidden;
-  text-align: center;
-
-}
-
-.list{
-  display: inline-block;
-}
-
-.register{
-  float:none;
-  border-radius: 8px;
-  color: white;
 }
 .card_content{
   padding: 6px 10px;
@@ -289,3 +225,92 @@ div {
  /* font-weight: bold;*/
   font-size: 22px;
 }
+.register{
+  float:none;
+  border-radius: 8px;
+  color: white;
+}
+
+/*section3 sponsors*/
+.s_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s_image{
+  height: 150px;
+  width: 150px;
+  margin: 20% 20px;
+}
+.sponsor_text{
+  margin-top: -20%;
+  margin-bottom: -2%;
+  font-size: 76px;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+
+/*extra css is here 
+.in_logo{
+  width: 270px;
+  border-radius: 270px;
+  cursor: pointer;            
+  float:inline-start;
+  margin: 0% 0%;
+  margin-top: -21%;
+  margin-bottom: -4%;
+}
+.title {
+  color: black;
+  font-size: 15px;
+}
+
+.logo_text {
+  cursor: pointer;
+  font-size: 20px;
+  color: #1d1d1d;
+  text-decoration: none;
+  margin-inline: right;
+}
+
+
+.text h1{
+  color: black;
+  font-family:"Poppins";
+  margin: auto;
+  margin-top: 10px;
+  font-size: 30px;
+}
+  
+.wrapper {
+	max-width: initial;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  margin: auto;
+  margin-left: 8%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.p_text{
+  margin-top: -4%;
+  font-size: 65px;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.list{
+  display: inline-block;
+}
+*/
+

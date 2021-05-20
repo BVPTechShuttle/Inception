@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge ,chrome=1">
@@ -14,13 +13,14 @@
 </head>
 
 <body>
+   
     <a id="home"></a>
     <header class="text-gray-700 body-font">
         <div class=" flex flex-wrap p-1 flex-col md:flex-row items-center" style="padding: 0px 0%;">
             <a class="flex title-font font-medium items-center text-gray-900 mb-3 md:mb-0">
-                <a href="https://bvptechshuttle.github.io/techshuttleWebsite/#home"><img src="img/logo2.png"
-                        class="tech_logo " alt="Hack Club" /></a>
-                <span class="logo"><b>TechShuttle|<b class="r_color">HackClubBVP</b></b></span>
+                <a href="https://bvptechshuttle.github.io/techshuttleWebsite/#home"><img src="img/techshuttle_logo.png"
+                        class="techshuttle_logo" alt="Hack Club" /></a>
+                <span class="techshuttle_name"><b>TechShuttle|<b class="r_color">HackClubBVP</b></b></span>
             </a>
 
             <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
@@ -30,24 +30,27 @@
                 <a class="navbar" href="#sponsors">Sponsors</a>
                 <a class="navbar" href="#contact">Contact Us</a>
             </nav>
+           
             <a href="https://docs.google.com/forms/d/1cSSZ01EDk3VaGIAVk8Q7zaSR6d-LAqiWopvDqLuoY84/edit?ts=5f9be865"
                 target="_blank">
                 <button
                     class="inline-flex text-white  border- py-1 px-4 focus:outline-none rounded text-base mt-2 md:mt-0">Join
                     Us</button>
             </a>
+
         </div>
     </header>
 
+    <!--section1-->
     <section class="parallax">
         <div class="parallax-inner"></div>
-        <a href="#home"><img src="img/favicon.png" class="in_logo1 " alt="Hack Club" /></a>
-        <h2 class="p_text1"> <b> The </b><b class="r_color">Inception<br><br><br></b></h2>
+        <a href="#home"><img src="img/favicon.png" class="inception_logo" alt="Hack Club" /></a>
+        <h2 class="inception"> <b> The </b><b class="r_color">Inception<br><br><br></b></h2>
     </section>
 
-
+    <!--about area-->
     <div class="margin" id="about">
-        <p class="text">
+        <p class="about_text">
             "Most People miss great opportunities because of their misperception of time. Don’t Wait! The time will
             never
             be just right."<br>
@@ -64,90 +67,134 @@
         </p>
     </div>
 
+    <!--section2 posters-->
     <section class="parallax">
         <div class="parallax-inner"></div>
-        <h2 class="p_text2" id="events"> <b> OUR </b><b class="r_color">EVENTS <br><br></b></h2>
+        <h2 class="poster_text" id="events"> <b> OUR </b><b class="r_color">EVENTS <br><br></b></h2>
 
-        <div class="container">
-            <div class="wrapper">
-                <div class="event-card">
-                    <div class="event-card-struct">
-                        <div class="event-card-front">
-                            <img class="event" src="img/coding.png">
-                        </div>
-                        <div class="event-card-back" style="background-image:url(img/coding_back.png);">
-                            <h2 class="card_content">
-                                Program Paradox is a Coding Contest based on DSA questions which aims to check your
-                                Problem Solving abilities. Be a part of it and take away amazing prizes.
-                            </h2>
-                            <button class="register" onclick="notopen()">Register Here</button>
-                        </div>
+        <div class="poster_container">
+           
+            <div class="event-card">
+                <div class="event-card-struct">
+                    <div class="event-card-front">
+                        <img class="event" src="img/coding.png">
+                    </div>
+                    <div class="event-card-back" style="background-image:url(img/coding_back.png);">
+                        <h2 class="card_content">
+                            Program Paradox is a Coding Contest based on DSA questions which aims to check your
+                            Problem Solving abilities. Be a part of it and take away amazing prizes.
+                        </h2>
+                        <button class="register" onclick="notopen()">Register Here</button>
                     </div>
                 </div>
-                <div class="event-card">
-                    <div class="event-card-struct">
-                        <div class="event-card-front">
-                            <img class="event" src="img/ideathon.png">
-                        </div>
-                        <div class="event-card-back" style="background-image:url(img/ideathon_back.png);">
-                            <h2 class="card_content">
-                                Get ready to brainstorm on some real life problems cuz you are the one with a potential
-                                to bring change. Presenting Idea Install - A one of a kind Ideathon event.
-                            </h2>
-                            <button class="register" onclick="notopen()">Register Here</button>
-                        </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-card-struct">
+                    <div class="event-card-front">
+                        <img class="event" src="img/ideathon.png">
+                    </div>
+                    <div class="event-card-back" style="background-image:url(img/ideathon_back.png);">
+                        <h2 class="card_content">
+                            Get ready to brainstorm on some real life problems cuz you are the one with a potential
+                            to bring change. Presenting Idea Install - A one of a kind Ideathon event.
+                        </h2>
+                        <button class="register" onclick="notopen()">Register Here</button>
                     </div>
                 </div>
-                <div class="event-card">
-                    <div class="event-card-struct">
-                        <div class="event-card-front">
-                            <img class="event" src="img/hackathon.png">
-                        </div>
-                        <div class="event-card-back" style="background-image:url(img/hackathon_back.png);">
-                            <h2 class="card_content" style="padding: 15px 10px;">
-                                A perfect platform to implement perfect ideas. With this Hackathon event, we welcome you
-                                to innovate and create!
-                            </h2>
-                            <button class="register" onclick="notopen()">Register Here</button>
-                        </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-card-struct">
+                    <div class="event-card-front">
+                        <img class="event" src="img/hackathon.png">
+                    </div>
+                    <div class="event-card-back" style="background-image:url(img/hackathon_back.png);">
+                        <h2 class="card_content" style="padding: 15px 10px;">
+                            A perfect platform to implement perfect ideas. With this Hackathon event, we welcome you
+                            to innovate and create!
+                        </h2>
+                        <button class="register" onclick="notopen()">Register Here</button>
                     </div>
                 </div>
-                <div class="event-card">
-                    <div class="event-card-struct">
-                        <div class="event-card-front">
-                            <img class="event" src="img/treasure_hunt.png">
-                        </div>
-                        <div class="event-card-back" style="background-image:url(img/treasure_hunt_back.png);">
-                            <h2 class="card_content" style="padding: 4px 8px;">
-                                Lets bring out our inner detectives and solve the mysteries with a series of given
-                                clues. The treasure hunt event is the exact dose of fun that we all crave for during
-                                this pandemic.
-                            </h2>
-                            <button class="register" onclick="notopen()">Register Here</button>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /wrapper -->
-        </div><!-- /container -->
+            </div>
+        
+        </div>
     </section>
 
-    <div id="sponsors">
+    <!--section3 posters-->
+    <section class="parallax">
+        <div class="parallax-inner"></div>
 
-    </div>
+        <div class="poster_container2">
+            
+            <div class="event-card">
+                <div class="event-card-struct">
+                    <div class="event-card-front">
+                        <img class="event" src="img/treasure_hunt.png">
+                    </div>
+                    <div class="event-card-back" style="background-image:url(img/treasure_hunt_back.png);">
+                        <h2 class="card_content" style="padding: 4px 8px;">
+                            Lets bring out our inner detectives and solve the mysteries with a series of given
+                            clues. The treasure hunt event is the exact dose of fun that we all crave for during
+                            this pandemic.
+                        </h2>
+                        <button class="register" onclick="notopen()">Register Here</button>
+                    </div>
+                </div>
+            </div>
 
+            <div class="event-card">
+                <div class="event-card-struct">
+                    <div class="event-card-front">
+                        <img class="event" src="img/quiz.png">
+                    </div>
+                    <div class="event-card-back" style="background-image:url(img/quiz_back.png);">
+                        <h2 class="card_content" style="padding: 4px 8px;">
+                            Lets bring out our inner detectives and solve the mysteries with a series of given
+                            clues. The treasure hunt event is the exact dose of fun that we all crave for during
+                            this pandemic.
+                        </h2>
+                        <button class="register" onclick="notopen()">Register Here</button>
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    </section>
 
+    
+    <!--section3 sponsors-->
+    <div id="sponsors"></div>
+   
+    <section class="parallax">
+        <div class="parallax-inner"></div>
+        <h2 class="sponsor_text" id="events"> <b> OUR </b><b class="r_color">SPONSORS <br><br></b></h2>
+       
+        <div class="s_container">
+            <a href="website"><img src="img/cb.png" class="s_image" alt="name" /></a>
+            <a href="website"><img src="img/cn.png" class="s_image" alt="name" /></a>
+            <a href="website"><img src="img/ic.png" class="s_image" alt="name" /></a>
+            <a href="website"><img src="img/cfc.png" class="s_image" alt="name" /></a>
+        </div>
+    </section>
+
+<!--home button at bottom-->
     <a href="#home" style="position: fixed; bottom: .08%; right:0.5%; font-size:50px;">
         <button
             class="inline-flex text-white  border-0 py-2 px-4 focus:outline-none  rounded text-base mt-4 md:mt-0">&#8593;</button>
     </a>
 
+    <!--footer-->
     <footer class="text-gray-700 body-font" id="contact">
         <div style="background-color: #313444;">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+               
                 <p class="text-gray-500 text-sm text-center sm:text-left">Copyright © 2021
                     <a href="mailto:bvphackclub@gmail.com" target="_blank" rel="noopener noreferrer"
                         class="text-gray-600 ml-1" target="_blank">TechShuttle, Hack Club of BVP</a>
                 </p>
+               
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                     <a class="text-gray-500" href="https://www.facebook.com/TechShuttle-108509117745422"
                         target="_blank">
@@ -194,10 +241,12 @@
             </div>
         </div>
     </footer>
+
 </body>
 
+
 <script>
-    function notopen(){
+    function notopen() {
         alert("The Registrations have not begun yet. Stay tuned!")
     }
 </script>
