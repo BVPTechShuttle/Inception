@@ -133,19 +133,22 @@ nav #icon{
   overflow: hidden;
   text-align: center;
 }
-.poster_container{
-  display: flex;
-  justify-content: center;
+.list{
+  display: inline-block;}
+.wrapper {
+	max-width: initial;
+  align-items: center;
+  margin-bottom: 6%;
+  margin-left:5%;
+  margin: auto;
+  margin-left:5%;
+}
+
+.container {
+  display:inline-flex;
   align-items: center;
 }
 
-/*section3 posters*/
-.poster_container2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -30%;
-}
 
 /*section2-3 event cards*/
 .card p {
@@ -231,7 +234,10 @@ div {
   color: white;
 }
 
-/*section3 sponsors*/
+
+
+/*extra css is here
+/*section3 sponsors/
 .s_container{
   display: flex;
   justify-content: center;
@@ -251,8 +257,6 @@ div {
   overflow: hidden;
   text-align: center;
 }
-
-/*extra css is here 
 .in_logo{
   width: 270px;
   border-radius: 270px;
@@ -284,21 +288,6 @@ div {
   font-size: 30px;
 }
   
-.wrapper {
-	max-width: initial;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5%;
-  margin: auto;
-  margin-left: 8%;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
 .p_text{
   margin-top: -4%;
   font-size: 65px;
@@ -307,10 +296,18 @@ div {
   overflow: hidden;
   display: inline-block;
 }
-
-
-.list{
-  display: inline-block;
+.poster_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/*section3 posters/
+.poster_container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30%;
+}
+
 */
 
