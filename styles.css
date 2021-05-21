@@ -149,7 +149,6 @@ nav #icon{
   align-items: center;
 }
 
-
 /*section2-3 event cards*/
 .card p {
   font-family: "Poppins";
@@ -160,6 +159,7 @@ nav #icon{
   margin: auto;
   text-align: center;
   padding: 10px;
+  align-items: center;
 }
 div {
   margin: 0px;
