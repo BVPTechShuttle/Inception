@@ -99,10 +99,10 @@ nav #icon{
   width: 360px;
   border-radius: 270px;
   cursor: pointer;            
-      margin: auto;
-      margin-top: -22%;
-      margin-bottom: auto;
-      text-align: center;
+  margin: auto;
+  margin-top: -22%;
+  margin-bottom: auto;
+  text-align: center;
 }
 /* about area */
 .margin{ 
@@ -142,10 +142,15 @@ nav #icon{
   margin-left:5%;
   margin: auto;
   margin-left:5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   display:inline-flex;
+  align-items: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -169,8 +174,8 @@ div {
 }
 .event-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   perspective: 1000;
   border-radius:30px;
   display: inline-flex;
@@ -180,8 +185,8 @@ div {
 }
 .event-card-struct {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -192,10 +197,17 @@ div {
 .event-card:hover .event-card-struct {
   transform: rotateY(180deg);
 }
-.event-card-front, .event-card-back {
+.event-card-front{
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
+  backface-visibility: hidden;
+  border-radius:30px;
+} 
+.event-card-back {
+  position: absolute;
+  width: 310px;
+  height: 310px;
   backface-visibility: hidden;
   border-radius:30px;
 }
@@ -205,8 +217,8 @@ div {
 }
 .event{
   border-radius: 30px;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
 }
 .event-card-back h1{
   font-family: "Poppins";
@@ -218,15 +230,12 @@ div {
   padding: 10px;
 }
 .card_content{
-  padding: 6px 10px;
+  padding: 25px;
   color: white;
   text-align:center;
-  text-decoration: solid;
-  text-transform: inherit;
-  letter-spacing: inherit;
   text-shadow: white;
- /* font-weight: bold;*/
-  font-size: 22px;
+  vertical-align: middle;
+  font-size: 18px;
 }
 .register{
   float:none;
@@ -234,10 +243,6 @@ div {
   color: white;
 }
 
-
-
-/*-----------------------extra css is here-------------------------------------
-/*section3 sponsors/
 .s_container{
   display: flex;
   justify-content: center;
@@ -257,6 +262,11 @@ div {
   overflow: hidden;
   text-align: center;
 }
+
+/*-----------------------extra css is here-------------------------------------
+/*section3 sponsors/
+
+
 .in_logo{
   width: 270px;
   border-radius: 270px;
