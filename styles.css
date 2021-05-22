@@ -4,6 +4,9 @@
   padding: 0;  
 }
   
+.body{
+  overflow-x: hidden;
+}
 .r_color { 
   color: #EC3750;
 }
@@ -87,7 +90,7 @@ nav #icon{
 
 /*section 1*/
 .inception{
-  font-size: 76px;
+  font-size: 70px;
   color: white;
   cursor: pointer;
   overflow: hidden;
@@ -244,22 +247,21 @@ div {
 }
 
 .s_container{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
 .s_image{
-  height: 150px;
-  width: 150px;
-  margin: 20% 20px;
+  height: 100px;
+  width: 100px;
+  display: inline-flex;
+  margin: 20px;
 }
 .sponsor_text{
   margin-top: -20%;
   margin-bottom: -2%;
-  font-size: 76px;
+  font-size: 70px;
   color: white;
-  cursor: pointer;
-  overflow: hidden;
   text-align: center;
 }
 
