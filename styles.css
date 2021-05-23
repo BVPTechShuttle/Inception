@@ -76,6 +76,8 @@ nav #icon{
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
+  scroll-margin: 0px;
+  margin:0;
 }
 .parallax-inner{
   padding-bottom: 30%;
@@ -124,7 +126,6 @@ nav #icon{
   text-transform: inherit;
   letter-spacing: inherit;
   text-shadow: white;
-  font-weight: bold;
   font-size: 20px;
 }
 
@@ -140,22 +141,6 @@ nav #icon{
 }
 .list{
   display: inline-block;
-}
-.wrapper {
-	width:100%;
-  align-items: center;
-  margin-bottom: 6%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  width:100%;
-  display:inline-flex;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
 }
 
 /*section2-3 event cards*/
@@ -184,7 +169,8 @@ div {
   display: inline-flex;
   align-items: center;
   margin-bottom: 4%;
-  margin-inline-start:5%;
+  margin-inline-start:6%;
+  margin-inline-end:6%;
 }
 .event-card-struct {
   position: relative;
@@ -237,7 +223,7 @@ div {
   text-align:center;
   text-shadow: white;
   vertical-align: middle;
-  font-size: 15px;
+  font-size: 18px;
 }
 .register{
   float:none;
