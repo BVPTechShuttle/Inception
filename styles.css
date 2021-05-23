@@ -225,7 +225,7 @@ div {
 .event-card-back h1{
   font-family: "Poppins";
   vertical-align: middle;
-  font-size: 25px;
+  font-size: 20px;
   text-align:center;
   color:white;
   font-weight: lighter;
@@ -237,7 +237,7 @@ div {
   text-align:center;
   text-shadow: white;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 15px;
 }
 .register{
   float:none;
