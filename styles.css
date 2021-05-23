@@ -77,7 +77,9 @@ nav #icon{
   background-attachment: fixed;
   width: 100%;
   scroll-margin: 0px;
-  margin:0;
+  margin:auto;
+  padding-left: auto;
+  padding-right: auto;
 }
 .parallax-inner{
   padding-bottom: 30%;
@@ -235,6 +237,11 @@ div {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
+  padding-right: auto;
+  padding-left: auto;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 .s_image{
   height: 100px;
