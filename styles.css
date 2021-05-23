@@ -6,6 +6,7 @@
   
 .body{
   overflow-x: hidden;
+  width: 100%;
 }
 .r_color { 
   color: #EC3750;
@@ -74,6 +75,7 @@ nav #icon{
   background-image: url(img/binary.png);
   background-size: cover;
   background-attachment: fixed;
+  width: 100%;
 }
 .parallax-inner{
   padding-bottom: 30%;
@@ -137,20 +139,19 @@ nav #icon{
   text-align: center;
 }
 .list{
-  display: inline-block;}
+  display: inline-block;
+}
 .wrapper {
-	max-width: initial;
+	width:100%;
   align-items: center;
   margin-bottom: 6%;
-  margin-left:5%;
-  margin: auto;
-  margin-left:5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
+  width:100%;
   display:inline-flex;
   align-items: center;
   justify-content: center;
@@ -164,7 +165,6 @@ nav #icon{
 .card {
   width: 200px;
   height: 325px;
-  margin: auto;
   text-align: center;
   padding: 10px;
   align-items: center;
@@ -195,7 +195,6 @@ div {
   transform-style: preserve-3d;
   border-radius:30px;
   display: inline-block;
-  margin-bottom: auto;
 }
 .event-card:hover .event-card-struct {
   transform: rotateY(180deg);
