@@ -280,7 +280,7 @@ div {
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; padding:0px}
+	.col {  margin: 1% 0 1% 0%; padding:5px}
 	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
 }
 
@@ -299,9 +299,9 @@ div {
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
-	.col1 {  margin: 1% 0 1% 0%; padding: 0px;}
+	.col1 {  margin: 1% 0 1% 0%; padding: 5px;}
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
-  .section1{ margin:0px;}
+  .section1 { margin: 0%; padding: 0%;}
 }
 /*-----------------------extra css is here-------------------------------------
 /*section3 sponsors/
