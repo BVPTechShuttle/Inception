@@ -162,8 +162,8 @@ div {
 }
 .event-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   perspective: 1000;
   border-radius:30px;
   display: inline-flex;
@@ -173,8 +173,8 @@ div {
   margin-inline-end:6.2%;
 }
 .event-card-struct {
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -186,15 +186,15 @@ div {
 }
 .event-card-front{
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   backface-visibility: hidden;
   border-radius:30px;
 } 
 .event-card-back {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   backface-visibility: hidden;
   border-radius:30px;
 }
@@ -204,8 +204,8 @@ div {
 }
 .event{
   border-radius: 30px;
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
 }
 .event-card-back h1{
   font-family: "Poppins";
@@ -240,6 +240,7 @@ div {
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
+  
 }
 .col:first-child { margin-left: 0; }
 
