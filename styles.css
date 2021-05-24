@@ -240,11 +240,6 @@ div {
 	padding: 0px;
 	margin: 0% 6.5% 0% 6.5%;
 }
-.section2 {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
 .col {
 	display: block;
 	float:left;
@@ -306,17 +301,6 @@ div {
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; padding: 5px;}
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
-}
-
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 65.83%; }
-.span_1_of_3 { width: 31.66%; }
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col2 {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 /*-----------------------extra css is here-------------------------------------
 /*section3 sponsors/
