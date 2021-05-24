@@ -28,8 +28,6 @@ button:hover {
   background-color:#02329D ;
 }
 
-
-
 /*header */  
 
 header{
@@ -122,7 +120,7 @@ nav #icon{
   filter: blur(0px);
 }
 .about_text{
-  color: #EC3750;
+  color: white;
   text-align: center;
   text-decoration: solid;
   text-transform: inherit;
