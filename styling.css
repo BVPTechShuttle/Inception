@@ -13,18 +13,26 @@ body {
     width: 100%;
     height: auto;
   }
-
+  #intro{
+    font-size: 60px;
+    
+  }
+  #desc{
+    font-size: 40px;
+  }
   h1,
   h2,
   h3 {
     margin: 0;
     padding: 1em 0;
+  
   }
 
   .heading{
-    font-size:80px; 
-    margin-top: 10px;
-    margin-bottom: 0;
+    font-size:90px; 
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: white;
   }
 
   p {
@@ -86,7 +94,7 @@ body {
 
   #section-b {
     padding: 2em 1em 1em;
-    margin-bottom: 150px;
+    background: #313444;
   }
 
   #section-b ul {
@@ -104,17 +112,15 @@ body {
   .card-content {
     padding: 1.5em;
   }
-
-
   .card p {
     font-family: "Poppins";
     background-color: #313444; 
     color: white;
   }
 
-  .card {
+  .card2 {
     width: 200px;
-    height: 325px;
+    height: 350px;
     margin: auto;
     text-align: center;
     padding: 10px;
@@ -125,41 +131,30 @@ body {
   .title {
     color: black;
     font-size: 15px;
+    background-color: #313444;
   }
 
-  .card h2 {
+  .card2 h2 {
     font-family: "Poppins", sans-serif;
     color: white;
     font-size: 18px;
   }
 
-  .card a {
+  .card2 a {
     font-size: 25px;
     color: white;
     padding: 15px;
     background-color: #313444;
   }
 
-  .card img {
+  .card2 img {
     border-radius: 50%;
+    
   }
 
   div {
     margin: 0px;
   }
-
-  .fab fa-github{
-    color: white;
-    background-color: #313444;
-   }
-  .fab fa-linkedin{
-    color: white;
-    background-color: #313444;
-   }
-  .fab fa-envelope{
-    color: white;
-    background-color: #313444;
-   }
   .logo_text {
     cursor: pointer;
     font-size: 20px;
@@ -169,10 +164,14 @@ body {
 
   }
 
-  .r_color {
-    color: rgba(229, 62, 62);
+  #prize{
+    background-color: #313444;
   }
 
+ #judges{
+   background-color: #313444;
+   
+ }
 
 
   #section-c {
