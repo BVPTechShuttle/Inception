@@ -144,6 +144,7 @@ nav #icon{
 }
 
 /*section2-3 event cards*/
+/*section2-3 event cards*/
 .card p {
   font-family: "Poppins";
 }
@@ -232,35 +233,80 @@ div {
 .section {
 	clear: both;
 	padding: 0px;
+	margin:0px;
+}
+.section1 {
+	clear: both;
+	padding: 0px;
+	margin: 0% 6.5% 0% 6.5%;
+}
+.section2 {
+	clear: both;
+	padding: 0px;
 	margin: 0px;
 }
 
 /*  COLUMN SETUP  */
+.col2 {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 2.5%;
+}
+.col2:first-child { margin-left: 0; }
+/*  COLUMN SETUP  */
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	margin: 1% 0 1% 4%;;
   
 }
 .col:first-child { margin-left: 0; }
+.col1 {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 6%;
+}
+.col1:first-child { margin-left: 0; }
 
-/*  GROUPING  */
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
+/*  GRID OF FIVE  */
+.span_5_of_5 {
+	width: 100%;
+}
+.span_4_of_5 {
+	width: 79.2%;
+}
+.span_3_of_5 {
+	width: 58.4%;
+}
+.span_2_of_5 {
+	width: 37.6%;
+}
+.span_1_of_5 {
+	width: 16.8%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
+}
+
 .span_4_of_4 {
 	width: 100%;
 }
 .span_3_of_4 {
-	width: 74.6%;
+	width: 73.5%;
 }
 .span_2_of_4 {
-	width: 49.2%;
+	width: 47%;
 }
 .span_1_of_4 {
-	width: 23.8%;
+	width: 20.5%;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
@@ -269,6 +315,16 @@ div {
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
 
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 65.83%; }
+.span_1_of_3 { width: 31.66%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
 /*-----------------------extra css is here-------------------------------------
 /*section3 sponsors/
 
