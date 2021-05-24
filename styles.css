@@ -13,13 +13,15 @@
 }
 button {
   margin-top: 4%;   
-  padding: 7px 18px ;
+  padding: 7px 10px ;
   background-color: #EC3750;
   border:none;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3 ease 0s;
-  float: right;
+  color: white;
+  font-size: 1.2vw;
+  font-family: "Poppins";
 }
 
 button:hover {
@@ -144,17 +146,7 @@ nav #icon{
 }
 
 /*section2-3 event cards*/
-/*section2-3 event cards*/
-.card p {
-  font-family: "Poppins";
-}
-.card {
-  width: 200px;
-  height: 325px;
-  text-align: center;
-  padding: 10px;
-  align-items: center;
-}
+
 div {
   margin: 0px;
 }
@@ -163,19 +155,18 @@ div {
 }
 .event-card {
   background-color: transparent;
-  width: 310px;
-  height: 310px;
+  width: 25vw;
+  height: 25vw;
   perspective: 1000;
   border-radius:30px;
   display: inline-flex;
   align-items: center;
   margin-bottom: 50px;
-  margin-inline-start:6.2%;
-  margin-inline-end:6.2%;
+  margin: 0vw 0vw 3vw 5vw;
 }
 .event-card-struct {
-  width: 310px;
-  height: 310px;
+  width: 25vw;
+  height: 25vw;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -187,15 +178,15 @@ div {
 }
 .event-card-front{
   position: absolute;
-  width: 310px;
-  height: 310px;
+  width: 25vw;
+  height: 25vw;
   backface-visibility: hidden;
   border-radius:30px;
 } 
 .event-card-back {
   position: absolute;
-  width: 310px;
-  height: 310px;
+  width: 25vw;
+  height: 25vw;
   backface-visibility: hidden;
   border-radius:30px;
 }
@@ -205,25 +196,40 @@ div {
 }
 .event{
   border-radius: 30px;
-  width: 310px;
-  height: 310px;
+  width: 25vw;
+  height: 25vw;
 }
 .event-card-back h1{
   font-family: "Poppins";
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 1.5vw;
   text-align:center;
   color:white;
   font-weight: lighter;
-  padding: 10px;
+  padding: 1vw;
 }
 .card_content{
-  padding: 25px;
+  padding: 1vw;
   color: white;
   text-align:center;
   text-shadow: white;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 1.2vw;
+  font-family: "Poppins";
+}
+@media only screen and (max-width: 480px) {
+  .event, .event-card, .event-card-back, .event-card-front, .event-card-struct{
+    width:100vw;
+    height: 100vw;
+    margin: 0px 0px 50px 0px;
+    display: block;
+  }
+  .card_content, .event-card-back h1{
+    font-size: 5vw;
+  }
+  button{
+    font-size: 5vw;
+  }
 }
 .register{
   float:none;
@@ -302,6 +308,69 @@ div {
 	.col1 {  margin: 1% 0 1% 0%; padding: 15px;}
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
   .section1 { margin: 0%; padding: 0%;}
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1000;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30vw;
+  position: relative;
+  transition: all 5s ease-in-out;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.popup ul{
+  list-style-type:none;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
 }
 /*-----------------------extra css is here-------------------------------------
 /*section3 sponsors/
