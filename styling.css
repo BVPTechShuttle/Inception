@@ -21,6 +21,12 @@ body {
     padding: 1em 0;
   }
 
+  .heading{
+    font-size:80px; 
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
   p {
     margin: 0;
     padding: 1em 0;
@@ -73,13 +79,14 @@ body {
 
 
   #section-a {
-    background: #eaeaea;
-    color: #333;
+    background: #313444;
+    color: white;
     padding-bottom: 2em;
   }
 
   #section-b {
     padding: 2em 1em 1em;
+    margin-bottom: 150px;
   }
 
   #section-b ul {
@@ -99,10 +106,80 @@ body {
   }
 
 
+  .card p {
+    font-family: "Poppins";
+    background-color: #313444; 
+    color: white;
+  }
+
+  .card {
+    width: 200px;
+    height: 325px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #313444;
+    color: white;
+  }
+
+  .title {
+    color: black;
+    font-size: 15px;
+  }
+
+  .card h2 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 18px;
+  }
+
+  .card a {
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    background-color: #313444;
+  }
+
+  .card img {
+    border-radius: 50%;
+  }
+
+  div {
+    margin: 0px;
+  }
+
+  .fab fa-github{
+    color: white;
+    background-color: #313444;
+   }
+  .fab fa-linkedin{
+    color: white;
+    background-color: #313444;
+   }
+  .fab fa-envelope{
+    color: white;
+    background-color: #313444;
+   }
+  .logo_text {
+    cursor: pointer;
+    font-size: 20px;
+    color: #1d1d1d;
+    text-decoration: none;
+    margin-inline: right;
+
+  }
+
+  .r_color {
+    color: rgba(229, 62, 62);
+  }
+
+
+
   #section-c {
-    background: #fff;
-    color: #333;
+    background: #313444;
+    color: white;
     padding: 2em;
+    margin-top: 200px;
   }
 
   
