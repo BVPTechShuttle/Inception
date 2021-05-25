@@ -146,12 +146,12 @@ body {
     font-size: 18px;
   }
 
-  .card2 a {
+ /** .card2 a {
     font-size: 25px;
     color: white;
     padding: 15px;
     background-color: #313444;
-  }
+  }**/
 
   .card2 img {
     border-radius: 50%;
@@ -263,3 +263,15 @@ body {
       width: 31%;
     }
   }
+
+  .judge_name{
+    text-decoration:none;
+    list-style-type:none;
+    transition: all 0.3s ease; 
+    font-weight: bold;
+    cursor: pointer; 
+  }
+  .judge_name:hover {
+    color: #02329D;
+  }
+ 
