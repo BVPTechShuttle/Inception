@@ -112,6 +112,9 @@ body {
   .card-content {
     padding: 1.5em;
   }
+  .themeimg{
+    height: 200px;
+  }
   .card p {
     font-family: "Poppins";
     background-color: #313444; 
@@ -137,6 +140,9 @@ body {
   .card2 h2 {
     font-family: "Poppins", sans-serif;
     color: white;
+    font-size: 18px;
+  }
+  ul{
     font-size: 18px;
   }
 
@@ -167,9 +173,25 @@ body {
   #prize{
     background-color: #313444;
   }
+  .row mb-0{
+    margin: 1%;
+    padding: 1%px;
+    background-color: #313444;
+  }
+  .col-md-6{
+    background-color: white;
+    color:#313444 ;
+  }
+  .col p-4 d-flex flex-column position-static{
+    background-color: #313444;
+  }
+  .col-auto d-none d-lg-block{
+    background-color: #313444;
+  }
 
  #judges{
    background-color: #313444;
+   margin-bottom: 20%;
    
  }
 
