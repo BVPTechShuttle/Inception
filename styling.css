@@ -104,16 +104,25 @@ body {
   }
 
   #section-b li {
-    margin-bottom: 1em;
+    margin: 1em;
     background: #fff;
     color: #333;
+    
   }
 
+
   .card-content {
-    padding: 1.5em;
+    padding: 1.0em;
+  }
+  
+  .card-title{
+    margin-bottom: 8px;
   }
   .themeimg{
-    height: 200px;
+    height: 250px;
+  }
+  .themetext{
+    align-content:stretch;
   }
   .card p {
     font-family: "Poppins";
