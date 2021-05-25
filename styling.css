@@ -28,9 +28,7 @@ body {
     padding: 1em 0;
   
   }
-  a{
-    text-decoration: none;
-  }
+  
   .heading{
     font-size:90px; 
     margin-top: 70px;
@@ -285,5 +283,8 @@ body {
   }
   .judge_name:hover {
     color: #02329D;
+  }
+  .name{
+    text-decoration: none;
   }
  
