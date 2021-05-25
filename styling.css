@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins";
     background: #333;
     color: #fff;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
+    text-decoration: none;
   }
 
   img {
@@ -27,7 +28,9 @@ body {
     padding: 1em 0;
   
   }
-
+  a{
+    text-decoration: none;
+  }
   .heading{
     font-size:90px; 
     margin-top: 70px;
