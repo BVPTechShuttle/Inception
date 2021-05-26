@@ -24,7 +24,7 @@ img {
 }
 
 .heading{
-  font-size:90px; 
+  font-size:80px; 
   margin-top: 70px;
   margin-bottom: 70px;
   color: white;
@@ -182,7 +182,7 @@ div {
 
 #judges{
  background-color: #313444;
- margin-bottom: 20%;
+ 
  
 }
 
@@ -191,7 +191,7 @@ div {
   background: #313444;
   color: white;
   padding: 2em;
-  margin-top: 200px;
+
 }
 
 
@@ -271,6 +271,9 @@ div {
 ul{
   margin-right: 10%;
   margin-left: 10%;
+}
+#contact{
+  margin-top: 5%;
 }
 @media only screen and (max-width: 480px){
   .bleh{
