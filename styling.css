@@ -8,7 +8,12 @@ body {
   text-align: center;
   text-decoration: none;
   overflow-x: hidden;
+  max-width: 100%;
 }
+html, body {
+  overflow-x: hidden;
+}
+
 
 img {
   display: block;
@@ -193,6 +198,40 @@ div {
   padding: 2em;
 
 }
+.span_2_of_2 {
+	width:30%;
+}
+.span_1_of_2 {
+	width: 30%;
+}
+.span_3_of_3 {
+	width:30%;
+}
+.span_2_of_3 {
+	width: 30%;
+}
+.span_1_of_3 {
+	width: 30%;
+}
+.span_1_of_1{
+  width: 60%;
+}
+.singleimg{
+  width: 90%;
+  margin: 0 40% 0 40%;
+}
+.twoimg{
+  margin: 0 60% 0 60%;
+}
+.threeimg{
+  margin: 0 2% 0 2%;
+}
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .singleimg,.twoimg, .threeimg{margin: 0 0 0 0}
+	.col { margin: 1% 0 1% 0%; padding:18px}
+	.span_1_of_2, .span_2_of_2,.span_1_of_3, .span_2_of_3, .span_3_of_3, .span_1_of_1,.singleimg{ width: 100%; }
+}
 
 
 
@@ -238,6 +277,7 @@ div {
   .content-wrap,
   #section-b ul {
     grid-column: 2/4;
+   
   }
 
   .box,

@@ -84,7 +84,8 @@ nav #icon{
   padding-right: 70%;
 }      
 .parallax h1{
-  text-align: left;
+  
+  align: left;
   font-size: 500%;
   color: white;
   letter-spacing: 3px;
